@@ -20,7 +20,7 @@ export const Hero = () => {
           playsInline
         >
           <source 
-            src="https://player.vimeo.com/external/496394201.sd.mp4?s=b87f4e7d3dcb0e8b89c74855ef0b2462e52b3522&profile_id=164&oauth2_token_id=57447761" 
+            src="https://cdn.coverr.co/videos/coverr-cnc-machine-in-action-2741/1080p.mp4" 
             type="video/mp4" 
           />
           Your browser does not support the video tag.
