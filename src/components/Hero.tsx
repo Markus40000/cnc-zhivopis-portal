@@ -3,6 +3,13 @@ import React from 'react';
 export const Hero = () => {
   return (
     <div className="relative min-h-[80vh] flex items-center bg-industrial-800">
+      {/* Logo */}
+      <div className="absolute top-4 left-4 z-30">
+        <h2 className="text-3xl font-bold text-white tracking-wider">
+          Техноформ
+        </h2>
+      </div>
+      
       <div className="absolute inset-0 bg-gradient-to-r from-industrial-900/90 to-industrial-800/70 z-10" />
       <div 
         className="absolute inset-0 bg-cover bg-center"
