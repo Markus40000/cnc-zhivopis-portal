@@ -6,7 +6,7 @@ export const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-industrial-900/90 to-industrial-800/70 z-10" />
       <div 
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1612351641432-20a0f196086c?auto=format&fit=crop&w=2000)' }}
+        style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1647427060118-4911c9821b82?auto=format&fit=crop&w=2000)' }}
       />
       <div className="container mx-auto px-4 relative z-20">
         <div className="max-w-3xl animate-slide-up">
