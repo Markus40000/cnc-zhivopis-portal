@@ -11,10 +11,21 @@ export const Hero = () => {
       </div>
       
       <div className="absolute inset-0 bg-gradient-to-r from-industrial-900/90 to-industrial-800/70 z-10" />
-      <div 
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1647427060118-4911c9821b82?auto=format&fit=crop&w=2000)' }}
-      />
+      <div className="absolute inset-0">
+        <video 
+          className="w-full h-full object-cover"
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+        >
+          <source 
+            src="https://player.vimeo.com/external/496394201.sd.mp4?s=b87f4e7d3dcb0e8b89c74855ef0b2462e52b3522&profile_id=164&oauth2_token_id=57447761" 
+            type="video/mp4" 
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
       <div className="container mx-auto px-4 relative z-20">
         <div className="max-w-3xl animate-slide-up">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
